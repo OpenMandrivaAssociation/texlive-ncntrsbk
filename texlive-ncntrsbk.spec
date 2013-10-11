@@ -1,12 +1,12 @@
-# revision 21993
+# revision 31835
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-date 2012-06-06 22:57:48 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-ncntrsbk
-Version:	20110301
-Release:	2
+Version:	20120606
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -86,17 +86,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/tfm/adobe/ncntrsbk/pncro8c.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/ncntrsbk/pncro8r.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/ncntrsbk/pncro8t.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/pncb8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/pncbc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/pncbi8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/pncr8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/pncrc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/pncri8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/pncrv8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/rpncb.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/rpncbi.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/rpncr.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/ncntrsbk/rpncri.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/ncntrsbk/uncb7t.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/ncntrsbk/uncb8c.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/ncntrsbk/uncb8r.tfm
@@ -163,13 +152,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/vf/adobe/ncntrsbk/pncro7t.vf
 %{_texmfdistdir}/fonts/vf/adobe/ncntrsbk/pncro8c.vf
 %{_texmfdistdir}/fonts/vf/adobe/ncntrsbk/pncro8t.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/ncntrsbk/pncb8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/ncntrsbk/pncbc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/ncntrsbk/pncbi8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/ncntrsbk/pncr8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/ncntrsbk/pncrc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/ncntrsbk/pncri8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/ncntrsbk/pncrv8z.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/ncntrsbk/uncb7t.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/ncntrsbk/uncb8c.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/ncntrsbk/uncb8t.vf
@@ -208,17 +190,3 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
-+ Revision: 754253
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
-+ Revision: 719106
-- texlive-ncntrsbk
-- texlive-ncntrsbk
-- texlive-ncntrsbk
-- texlive-ncntrsbk
-
