@@ -32,3 +32,5 @@ cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
 # from ncntrsbk:
 Map unc.map
 TL_DROPIN_EOF
+echo '%dir %{_texmf_updmap_d}' >> %{specpartsdir}/%{name}.files.specpart
+echo '%{_texmf_updmap_d}/%{tl_name}' >> %{specpartsdir}/%{name}.files.specpart
